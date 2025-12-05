@@ -26,3 +26,8 @@ You should see output like this:
 ``` sh
 [E*] rabbitmq_mqtt
 ```
+
+### Step 4: Access the RabbitMQ Management UI
+
+Visit the RabbitMQ UI: [http://localhost:15672](http://localhost:15672)
+
