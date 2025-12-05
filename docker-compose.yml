@@ -1,0 +1,17 @@
+services:
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"        # AMQP
+      - "15672:15672"      # Management UI
+      - "1883:1883"        # MQTT <-- Now works with the plugin enabled below
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin
+      # 💡 ADD THIS LINE to enable MQTT
+      # RABBITMQ_ENABLED_PLUGINS: "rabbitmq_management rabbitmq_mqtt"
+      # RABBITMQ_ENABLED_PLUGINS_FILE: /etc/rabbitmq-enabled-plugins/enabled_plugins
+    # Remove the volumes mount for enabled_plugins if using the env var
+    #volumes:
+       #- ./rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
