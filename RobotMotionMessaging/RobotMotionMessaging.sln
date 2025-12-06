@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Publisher", "Robot.MqttClient\Robot.Publisher.csproj", "{DDB18BE9-A01E-4354-94B4-499CBDE3727C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Subscriber", "Robot,Subscriber\Robot.Subscriber.csproj", "{DECEE338-85B4-4441-B27D-5BF2B8F172E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB18BE9-A01E-4354-94B4-499CBDE3727C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB18BE9-A01E-4354-94B4-499CBDE3727C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB18BE9-A01E-4354-94B4-499CBDE3727C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB18BE9-A01E-4354-94B4-499CBDE3727C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DECEE338-85B4-4441-B27D-5BF2B8F172E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECEE338-85B4-4441-B27D-5BF2B8F172E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECEE338-85B4-4441-B27D-5BF2B8F172E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECEE338-85B4-4441-B27D-5BF2B8F172E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
